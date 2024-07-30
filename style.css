@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+}
+
+.header-title {
+  font-family: 'Pokemon Solid', sans-serif;
+  margin-top: -35px;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  color: #343a40;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem 0;
+}
+
+#pokemon-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#pokemon-form .form-control {
+  margin-right: 0.5rem;
+  flex-grow: 1;
+}
+
+.pokemon-card {
+  display: none; /* Initially hide the card */
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.pokemon-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  color: white; /* Ensure text is readable on colored background */
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  color: #f8f9fa;
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .nav-link {
+  color: #2768a8;
+}
+
+footer .nav-link:hover {
+  color: #7c0e0e;
+}
+
+footer p {
+  margin-top: 1rem;
+}
+
